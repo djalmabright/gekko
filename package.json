@@ -54,15 +54,12 @@
     "quadrigacx": "0.0.7",
     "relieve": "^2.1.3",
     "retry": "^0.10.1",
-    "semver": "5.4.1",
     "sqlite3": "^3.1.13",
     "stats-lite": "^2.0.4",
     "tiny-promisify": "^0.1.1",
     "toml": "^2.3.0",
     "twitter": "^1.7.1",
-    "zaif.jp": "^0.1.4"
-  },
-  "devDependencies": {
+    "zaif.jp": "^0.1.4",
     "chai": "^2.0.0",
     "mocha": "^2.1.1",
     "proxyquire": "^1.7.10",
