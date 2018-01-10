@@ -1,3 +1,17 @@
 language: node_js
 node_js:
-  - "8.0.0"
+  - "8.9.1" 
+before_ script:
+- npm install -g gulp - cli
+script: gulp
+
+before_ install:
+- npm i - g npm@ version-5.5.1
+
+npm install 
+
+cache:
+directories :
+- " node _ modules"
+
+npm test
