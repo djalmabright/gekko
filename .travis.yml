@@ -5,11 +5,7 @@ before_ script:
 - npm install -g gulp - cli
 script: gulp
 
-before_ install:
-- npm i - g npm@ version-5.6.0
-
-install: 
- npm install
+npm install
 
 cache:
 directories :
