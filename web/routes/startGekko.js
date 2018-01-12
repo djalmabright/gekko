@@ -59,7 +59,7 @@ module.exports = function *() {
   }
   const logger = new Logger(logType);
 
-  console.log('Gekko', id, 'started');
+  console.log('Web Coins', id, 'started');
 
   const child = pipelineRunner(mode, config, (err, event) => {
 
@@ -74,7 +74,7 @@ module.exports = function *() {
         return;
 
       errored = true;
-      console.error('RECEIVED ERROR IN GEKKO', id);
+      console.error('RECEIVED ERROR IN WEBCOINS', id);
       console.error(err);
       return broadcast({
         type: 'gekko_error',
