@@ -3,8 +3,10 @@
     .grd-row-col-3-6(v-html='left')
     .grd-row-col-3-6.txt--center
       img(src='/assets/nitrous.png')
-      Let's 
+      p
          The most valuable commodity I know of is information.
+      p
+   
 </template>
 
 <script>
