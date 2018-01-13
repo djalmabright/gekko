@@ -2,8 +2,8 @@
   footer.p2.bg--off-white
     .contain
       p
-        em Use Web Coins at your own risk.
-      p Using Web Coins v{{ version.gekko }} and Web Coins UI v{{ version.ui }}.
+        em Use  WEB COINS at your own risk.
+      p Using Web Coins v{{ version.gekko }} and  Web Coins UI v{{ version.ui }}.
 </template>
 
 <script>
