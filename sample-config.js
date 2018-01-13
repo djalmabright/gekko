@@ -35,7 +35,7 @@ config.tradingAdvisor = {
   method: 'MACD',
   candleSize: 1,
   historySize: 3,
-  adapter: 'sqlite'
+  adapter: 'postgresql'
 }
 
 // Exponential Moving Averages settings:
