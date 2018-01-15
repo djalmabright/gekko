@@ -390,20 +390,9 @@ config.adviceWriter = {
 //                       CONFIGURING ADAPTER
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-config.adapter = 'sqlite';
+config.adapter = 'postgresql';
 
-config.sqlite = {
-  path: 'plugins/sqlite',
-
-  dataDirectory: 'history',
-  version: 0.1,
-
-  journalMode: require('./web/isWindows.js') ? 'DELETE' : 'WAL',
-
-  dependencies: []
-}
-
-  // Postgres adapter example config (please note: requires postgres >= 9.5):
+// Postgres adapter example config (please note: requires postgres >= 9.5):
 config.postgresql = {
   path: 'plugins/postgresql',
   version: 0.1,
